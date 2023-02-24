@@ -27,3 +27,11 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.785);
     margin: 10px;
 }
+/* navbar custom rules to overwrite bootstrap */
+.nb {
+    background-color: black;
+    color: #666;
+}
+.btn1 {
+    background-color: #666;
+}
