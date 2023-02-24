@@ -2,8 +2,7 @@ let activity = {
     name: "",
     frequency: "",
     totalCount: 0,
-    completions: 0,
-    total: () => {
-        
-    }
+    completionsCount: 0,
+    completions: [],
+    dateStart: 022423,
 }
