@@ -1,0 +1,29 @@
+body {
+    /* background-color: #000; */
+    height: 100vh;
+    background: radial-gradient(circle, rgb(14, 14, 14), rgb(0, 0, 0));
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.box-container {
+    /* width: 95vw; */
+    /* background-color: #333; */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgb(64, 64, 64), rgb(45, 45, 45));
+}
+.box {
+    width: 40px;
+    height: 40px;
+    background-color: #666;
+    border-radius: 50%;
+    border: 1px solid rgb(24, 24, 24);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.785);
+    margin: 10px;
+}
